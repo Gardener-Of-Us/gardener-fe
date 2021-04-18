@@ -26,7 +26,7 @@ const routes = [
     ]
   },
   {
-    path: '/',
+    path: '/gardener-fe/',
     element: <MainLayout />,
     children: [
       { path: 'login', element: <Login /> },
