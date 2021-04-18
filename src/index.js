@@ -4,7 +4,7 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 
 ReactDOM.render((
-  <BrowserRouter basename="/gardener-fe">
+  <BrowserRouter basename="/gardener-fe/">
     <App />
   </BrowserRouter>
 ), document.getElementById('root'));
