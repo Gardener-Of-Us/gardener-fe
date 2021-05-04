@@ -39,6 +39,7 @@
     "formik": "^2.1.5",
     "history": "^5.0.0",
     "http-proxy-middleware": "^1.2.0",
+    "node-sass": "^5.0.0",
     "install": "^0.13.0",
     "lodash": "^4.17.19",
     "moment": "^2.27.0",
