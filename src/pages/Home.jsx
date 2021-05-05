@@ -5,7 +5,7 @@ import Code from "../components/Code";
 // import   "./../stylesheets/FileBrowser.module.sass";
 // import '../../node_modules/react-keyed-file-browser/dist/react-keyed-file-browser.css';
 // import import "../stylesheets/NestedFileBrowser.sass";
-
+/* eslint-disable-next-line no-alert, semi*/
 function EmptyRenderer() {
   return (<div> </div>);
 }
@@ -46,11 +46,11 @@ export default class App extends React.Component {
     };
   }
 
-  handleChange = event => {
+  handleChange = (event) => {
     this.setState({ name: event.target.value });
   }
 
-  handleSubmit = event => {
+  handleSubmit = (event) => {
     event.preventDefault();
 
     const user = {
