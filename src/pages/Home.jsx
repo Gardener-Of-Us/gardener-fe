@@ -3,7 +3,7 @@ import Code from  "../components/Code";
 import axios from 'axios';
 import FileBrowser, {Icons} from "react-keyed-file-browser"
 //import   "./../stylesheets/FileBrowser.module.sass";
-import '../../node_modules/react-keyed-file-browser/dist/react-keyed-file-browser.css';
+//import '../../node_modules/react-keyed-file-browser/dist/react-keyed-file-browser.css';
 //import import "../stylesheets/NestedFileBrowser.sass";
 
 function EmptyRenderer() {     
