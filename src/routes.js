@@ -11,6 +11,7 @@ import Register from 'src/pages/Register';
 import Settings from 'src/pages/Settings';
 import Sample from 'src/pages/Sample';
 import Home from 'src/pages/Home';
+
 const routes = [
   {
     path: 'app',

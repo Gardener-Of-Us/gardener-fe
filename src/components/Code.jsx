@@ -14,7 +14,7 @@ import {
   copyButton,
   copyButtonDark,
   parentDiv,
-} from "./../stylesheets/components/Util/Code.module.sass";
+} from "../stylesheets/components/Util/Code.module.sass";
 
 SyntaxHighlighter.registerLanguage("java", java);
 SyntaxHighlighter.registerLanguage("jsx", jsx);
@@ -28,8 +28,8 @@ const retrieveCodeFromHighlightCache = (language, isDark, content) => {
   if (cachedItem === undefined) {
     const highlighterProps = {
       language,
-      showLineNumbers:true,
-      wrapLines:true,
+      showLineNumbers: true,
+      wrapLines: true,
       children: content,
       style: isDark ? atomDark : prism,
     };
@@ -71,5 +71,4 @@ Code.propTypes = {
 Code.defaultProps = {
   language: null,
 };
-
 export default Code;
