@@ -61,6 +61,7 @@
     "uuid": "^8.3.0",
     "yup": "^0.29.3",
     "react-hot-loader": "^4.13.0",
+    "react-icons": "^4.2.0",
     "react-keyed-file-browser": "^1.10.0"
   },
   "devDependencies": {
