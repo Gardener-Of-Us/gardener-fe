@@ -10,7 +10,7 @@ import ProductList from 'src/pages/ProductList';
 import Register from 'src/pages/Register';
 import Settings from 'src/pages/Settings';
 import Sample from 'src/pages/Sample';
-
+import Home from 'src/pages/Home';
 const routes = [
   {
     path: 'app',
@@ -22,6 +22,7 @@ const routes = [
       { path: 'products', element: <ProductList /> },
       { path: 'settings', element: <Settings /> },
       { path: 'sample', element: <Sample /> },
+      { path: 'home', element: <Home /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },
