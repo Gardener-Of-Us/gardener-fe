@@ -33,6 +33,6 @@
     "react/require-default-props": "off",
     // "linebreak-style": ['error', 'windows']
     "linebreak-style": 0,
-    "quotes": [2, "single", { "avoidEscape": true }]
+    "quotes": ["off", "single"]
   }
 }
