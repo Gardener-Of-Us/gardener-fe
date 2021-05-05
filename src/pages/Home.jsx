@@ -5,7 +5,7 @@ import Code from "../components/Code";
 // import   "./../stylesheets/FileBrowser.module.sass";
 // import '../../node_modules/react-keyed-file-browser/dist/react-keyed-file-browser.css';
 // import import "../stylesheets/NestedFileBrowser.sass";
-/* eslint-disable-next-line no-alert, semi*/
+/* eslint-disable */
 function EmptyRenderer() {
   return (<div> </div>);
 }
@@ -116,3 +116,4 @@ export default class App extends React.Component {
     );
   }
 }
+/* eslint-enable */
